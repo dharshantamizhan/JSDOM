@@ -14,11 +14,13 @@
               
             </span>
         </div>
+        <span>:</span>
         <div>
             <span class="minute">
                   
             </span>
         </div>
+        <span>:</span>
         <div>
             <span class="seconds">
                 
@@ -37,10 +39,10 @@
 <style>
     .am,.pm{
       /* font-size: 2px; */
-      color: cadetblue;
+      color: rgb(216, 254, 255);
     }
     .active{
-        color: chartreuse;
+        color: rgb(0, 255, 242);
     }
     .container{
         display: flex;
@@ -59,17 +61,18 @@
     }
     .timer{
         display:flex;
+        margin-top: 5%;
         align-items: center;
         width: 50vw;
         border: 5px solid coral;
         border-radius: 15px;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
     .noon{
         display: flex;
         justify-content: space-around;
         flex-flow:column nowrap;
-        border-left: 4px solid seagreen;
+        border-left: 4px solid coral;
         width: 10%;
     }
 </style>
